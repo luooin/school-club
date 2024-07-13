@@ -1,0 +1,14 @@
+{
+	"port": 8080,
+	"bodyLimit": "100000kb",
+	"corsHeaders": ["Link"],
+	"projectName": "club",
+	"dbConnection": {
+		"dbtype": "mysql",
+		"database": "club",
+		"username": "root",
+		"password": "123456"
+	},
+	"sessionSecret": "xiezn",
+	"jwtSecret": "xiezn"
+}
